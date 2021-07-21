@@ -19,6 +19,8 @@ In this assignment you will build and evaluate several machine learning models t
 
 [Ensemble Final Notebook](Final/credit_risk_ensemble.ipynb)
 
+[Homework README File](Final/README.md)
+
 [Lending Club Loans Data](Resources/LoanStats_2019Q1.csv.zip)
 
 - - -
