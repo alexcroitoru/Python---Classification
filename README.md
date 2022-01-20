@@ -1,4 +1,4 @@
-# Unit 11 - Risky Business
+# Python - Classification
  
 ![Credit Risk](Images/credit-risk.jpg)
 
@@ -6,7 +6,7 @@
 
 Mortgages, student and auto loans, and debt consolidation are just a few examples of credit and loans that people seek online. Peer-to-peer lending services such as Loans Canada and Mogo let investors loan people money without using a bank. However, because investors always want to mitigate risk, a client has asked that you help them predict credit risk with machine learning techniques.
 
-In this assignment you will build and evaluate several machine learning models to predict credit risk using data you'd typically see from peer-to-peer lending services. Credit risk is an inherently imbalanced classification problem (the number of good loans is much larger than the number of at-risk loans), so you will need to employ different techniques for training and evaluating models with imbalanced classes. You will use the imbalanced-learn and Scikit-learn libraries to build and evaluate models using the two following techniques:
+Credit risk is an inherently imbalanced classification problem (the number of good loans is much larger than the number of at-risk loans), so you will need to employ different techniques for training and evaluating models with imbalanced classes. You will use the imbalanced-learn and Scikit-learn libraries to build and evaluate models using the two following techniques:
 
 1. [Resampling](#Resampling)
 2. [Ensemble Learning](#Ensemble-Learning)
@@ -24,8 +24,6 @@ In this assignment you will build and evaluate several machine learning models t
 [Lending Club Loans Data](Resources/LoanStats_2019Q1.csv.zip)
 
 - - -
-
-### Instructions
 
 #### Resampling
 
@@ -110,25 +108,3 @@ Use the above to answer the following questions:
 * What are the top three features?
 
 - - -
-
-### Hints and Considerations
-
-Use the quarterly data from the LendingClub data provided in the `Resources` folder. Keep the file in the zipped format and use the starter code to read the file.
-
-Refer to the [imbalanced-learn](https://imbalanced-learn.readthedocs.io/en/stable/) and [scikit-learn](https://scikit-learn.org/stable/) official documentation for help with training the models. Remember that these models all use the model->fit->predict API.
-
-For the ensemble learners, use 100 estimators for both models.
-
-- - -
-
-### Submission
-
-* Create Jupyter notebooks for the homework and host the notebooks on GitHub.
-
-* Include a markdown that summarizes your homework and include this report in your GitHub repository.
-
-* Submit the link to your GitHub project to Bootcamp Spot.
-
-- - -
-
-© 2020 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
